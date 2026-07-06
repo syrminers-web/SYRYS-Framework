@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SYRYS Framework",
+    "description": "Advanced Server Execution Platform for Minecraft Bedrock Dedicated Server",
+    "uuid": "a1b2c3d4-e5f6-4g7h-8i9j-k0l1m2n3o4p5",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "b2c3d4e5-f6g7-4h8i-9j0k-l1m2n3o4p5q6",
+      "version": [1, 0, 0],
+      "language": "javascript",
+      "entry": "scripts/1/a.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ec01a4fd-06c0-4ff3-9d33-1712e7e8a694",
+      "version": [0, 1, 0]
+    }
+  ]
+}
